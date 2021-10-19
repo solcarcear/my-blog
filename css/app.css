@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #00a5ff;
+    height: 10rem;
+    width: 100%;
+}
+.logo {
+    height: 8rem;
+    width: 9rem;    
+    display: inline-block;
+}
+.logo img{
+    height: 8rem;
+    width: 9rem;    
+    margin: 1rem;
+    border-radius: 2px;
+}
+
+.color-1 {color: #90e88d;}
+.color-2 {color: #8de8b8;}
+.color-3 {color: #8de8e5;}
+.color-4 {color: #8dbee8;}
+.color-5 {color: #8d90e8;}
+.color-6 {color: #b88de8;}
