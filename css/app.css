@@ -7,20 +7,29 @@
 }
 
 header{
-    background-color: #00a5ff;
+    display :flex;
+    align-items: center;
+    justify-content: center;
     height: 10rem;
     width: 100%;
+    background-color: #8de8b8;
 }
-.logo {
-    height: 8rem;
-    width: 9rem;    
-    display: inline-block;
+header h1{
+    font-size: 3rem;
+    font-weight: bolder;
 }
-.logo img{
-    height: 8rem;
-    width: 9rem;    
-    margin: 1rem;
-    border-radius: 2px;
+
+footer{
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    width: 100%;
+    background-color: #8de8b8;
+}
+footer p {
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .color-1 {color: #90e88d;}
